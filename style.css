@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+button{
+    cursor: pointer;
+}    
+
+header{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #C0C0C0;
+    line-height: 20px;
+    letter-spacing: 2px; 
+}
+
+p{
+    color: #C0C0C0;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header .container{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+header img{
+    padding: 30px;
+    size: 128px 31px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    width: 700px;
+    justify-content: space-between;
+    height: 90px;
+}
+    
+nav a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav span{
+    font-size: 13px;
+    padding-right: 24px;
+}
+nav button{
+    color: #000000;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 14px;
+    width: 155px;
+    height: 42px;
+    border: none;
+}
+
+/* Main block */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.first_presentation{
+    margin: 0;
+    background-image: url(img/jpg/Main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 711px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.first_presentation .text_info{
+    max-width: 580px;
+    position: relative;
+    text-align: center;
+    top: 461px;
+}
+
+.first_presentation h1{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+}
+.photo_info{
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    top: -53px;
+    padding-right: 40px;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: flex-end;
+}
+.ico {
+    background-repeat: no-repeat;
+    height: 16px;
+}
+
+.shutter{
+    background-image: url(img/ico/shutter.png);
+    padding-left: 20px;
+    padding-right: 16px
+}    
+.apperture{
+    background-image: url(img/ico/apperture.png);
+    padding-left: 20px;
+    padding-right: 16px
+}
+.iso{
+    background-image: url(img/ico/iso.png);
+    padding-left: 35px;
+    padding-right: 16px
+}
+.place{
+    background-image: url(img/ico/location.png);
+    padding-left: 20px;
+}
+
+/* Second presentation*/
+.second_pres{
+    margin: 50px auto 100px;
+    max-width: 1440px;
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.second_pres h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+
+.area_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+.area{
+    margin: 8px;
+    max-width: 576px;
+   
+}
+.first_pic{
+    background-image: url(img/jpg/Tech.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.second_pic{
+    background-image: url(img/jpg/Build.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.third_pic{
+    background-image: url(img/jpg/Trees.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.fourth_pic{
+    background-image: url(img/jpg/OWL.png);
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.area_container .text{
+    margin: 400px 30px 30px;
+    text-align-last: left;
+}
+    
+.area_container h4{
+    padding-bottom: 5px;
+}
+.RMB{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 143px;
+    Height: 42px;
+    border: 0px;
+    border-radius: 14px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-family: 'Poppins';
+}
+
+.circle{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Third block*/
+.third_pres{
+    display: flex;
+    background-image: url(img/jpg/Japan.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.third_pres .text{
+    width: 298px;
+    margin-right: 62px;
+}
+
+/* Forth block*/
+.forth_pres{
+    width: 100%;
+    height: 540px;
+    background-image: url(img/jpg/Photo.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.forth_pres .text{
+    max-width: 514px;
+    margin: 173px 100px auto 100px;
+}
+
+h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+/* Fifth block*/
+.fifth_pres{
+    display: flex;
+    background-image: url(img/jpg/Lifes.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fifth_pres .text{
+    width: 273px;
+    margin-right: 62px;
+}
+
+/* Past clients */
+.past_clients{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}   
+
+.past_clients .logo{
+    display: flex;
+    width: 100%;
+    max-width: 1076px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 42px auto 0;
+    flex-wrap: wrap;
+}
+    
+.past_clients img{
+    width: 128px;
+    height: auto;
+    margin: 20px;
+}
+
+.past_clients h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+
+/* Sixth block*/
+.sixth_pres{
+    display: flex;
+    background-image: url(img/jpg/Mountain.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sixth_pres .text{
+    width: 243px;
+    margin-right: 119px;
+}
+
+/* Content*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 406px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h5{
+    color: #C0C0C0;
+    font-size: 24px;
+}
+
+.contact h2{
+    max-width: 571px;
+}
+
+footer{
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.linkblock{
+    display: flex;
+    max-width: 345px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navblock{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 5px 10px;
+}
+
+.navblock h4{
+    margin-bottom: 3px;
+}
+
+.navblock a{
+    text-decoration: none;
+    color: #C0C0C0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.subscr_sect{
+    max-width: 1150px;
+    width: 100%;
+    height: 132px;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    margin: 36px auto 0;    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscr_sect button{
+    display: flex;
+    max-width: 458px;
+    height: 52px;
+    width: 100%;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    border-radius: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscr_sect input{
+    height: 60%;
+    margin: 0 11px;
+    width: 100%;
+    border-radius: 11px;
+}
+
+.subscr_sect .circle{
+    height: 30px;
+    width: 63px;
+    border-radius: 11px;
+    margin-right: 11px;
+}
+
+.subscr_sect h4{
+    margin-bottom: 10px;
+}
+
+.subscr_sect p{
+    margin-bottom: 10px;
+}
+
+.info{
+    height: 124px;
+    max-width: 1160px;
+    width: 100%;
+    margin: 56px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc_net img{
+    margin-left: 26px;
+    height: 24px;
+    width: auto;
+}
+
+.soc_net a{
+    text-decoration: none;
+}
+
+@media (max-width: 991px){
+    header .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    header img{
+        padding: 30px 0 0;
+    }
+    .links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .linkblock{
+        max-width: 460px;
+    }
+    .logolink{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .subscr_sect{
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .info{
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 0;
+        align-items: center;
+    }
+    .soc_net img{
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+@media (max-width: 800px){
+    nav{
+        width: 100%;
+        padding-right: 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 180px;
+        padding: 15px 0 30px;
+    }
+    nav span{
+        padding-right: 0;
+    }
+    .first_presentation .text_info {
+        top: 240px;
+        padding: 0 15px;
+    }   
+    .photo_info{
+        padding-right:0;
+        justify-content: center
+    }
+    .second_pres {
+        margin: 50px auto 10px;
+    }
+    .third_pres .text {
+        margin: 0 auto;
+    }  
+    .forth_pres .text {
+        margin: 100px 30px 20px;
+    } 
+    .sixth_pres .text {
+        width: 330px;
+        margin: 0 auto;
+    } 
+    p {
+        text-align: justify;
+    }
+    .area_container .text{
+        margin: 50% 30px 30px;
+        text-align-last: center;
+    }
+    .text h4{
+        text-align: center;
+    }
+    .text .RMB{
+        margin: 100px auto 0;
+    }
+    .past_clients h5{
+        text-align: center;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    .logolink p{
+        text-align: center;
+    }
+
+    .navblock{
+        text-align: center;
+    }
+    .navblock a{
+        padding: 10px 0;
+    }
+    .navblock h4{
+        padding-bottom: 5px;
+    }
+}
